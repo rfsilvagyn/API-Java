@@ -17,3 +17,14 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 `spring.datasource.password=SUA SENHA`
 
 `spring.jpa.hibernate.ddl-auto=update`
+
+## Dependências / Recursos
+
+| Nome               | Status                                                |
+| ----------------- | ---------------------------------------------------------------- |
+| Spring Web       | OK|
+| Spring Data JPA       | OK |
+| Validation     | OK |
+| MySQL Driver      | OK |
+| Lombok     | OK |
+| Spring Security     |  |
