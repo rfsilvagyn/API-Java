@@ -1,7 +1,7 @@
 
 # API Java
 
-Uma api feita em Java com Spring Boot.
+Uma API em Java com Spring Boot.
 
 
 ## Variáveis de Ambiente
