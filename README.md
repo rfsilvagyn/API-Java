@@ -28,3 +28,54 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 | MySQL Driver      | OK |
 | Lombok     | OK |
 | Spring Security     |  |
+
+## Documentação da API
+
+#### Adiciona um usuário
+
+```http
+  POST /users
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `name` | `string` | **Obrigatório**. Nome do usuário |
+| `password` | `string` | **Obrigatório**. Senha do usuário |
+
+#### Atualiza um usuário
+
+```http
+  PUT /users/{id}
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `id` | `integer` | **Obrigatório**. ID do usuário |
+| `name` | `string` | **Obrigatório**. Nome do usuário |
+| `password` | `string` | **Obrigatório**. Senha do usuário |
+
+#### Obtem todos os usuários
+
+```http
+  GET /users
+```
+
+#### Obtem um usuário
+
+```http
+  GET /users/{id}
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `id` | `integer` | **Obrigatório**. ID do usuário |
+
+#### Deleta um usuário
+
+```http
+  DELETE /users/{id}
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `id` | `integer` | **Obrigatório**. ID do usuário |
